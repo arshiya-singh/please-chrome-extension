@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<style>
+body {
+	background-color: white;
+	margin: 0px;
+	padding: 0px;
+	border: 0px;
+}
+@font-face {
+	font-family: "Bebas Neue";
+	src: url("BebasNeue.otf");
+}
+@font-face {
+	font-family: "Caviar Dreams";
+	src: url("CaviarDreams.ttf");
+}
+#positioning {
+	top: 75px;
+	margin-left: 600px;
+	width: 500px;
+	position: fixed;
+}
+#sidebar {
+	background: url('BGpattern.png'), url('BGgradient.jpg') #006666 fixed;
+	height: 100%;
+	width: 500px;
+	margin: 0px;
+	padding: 0px;
+	box-shadow: 10px 10px 5px #888888;
+}
+#keywords {
+	padding-top: 75px;
+	padding-left: 0px;
+	padding-bottom: 75px;
+}
+#keywords a {
+	text-decoration: none;
+}
+.keyword {
+	background-color: rgba(0, 0, 0, 0.8);
+	width: 450px;
+	height: 100px;
+	line-height: 100px;
+	font-family: "Caviar Dreams";
+	font-size: 60px;
+	font-size: 6vmin;
+	color: white;
+	text-transform: uppercase;
+	border-radius: 0px 50px 50px 0px;
+}
+.keyword:hover {
+	background-color: rgba(0, 0, 0, 0.7);
+	text-align: right;
+}
+.keyword p {
+	padding-left: 20px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.keyword:hover p {
+	margin-right: 70px;
+}
+.keywordTitle {
+	background-color: rgba(255, 255, 255, 0.8);
+	width: 500px;
+	height: 150px;
+	line-height: 150px;
+	font-family: "Bebas Neue";
+	font-size: 12vmin;
+	color: black;
+	border-top: 5px black solid;
+	border-bottom: 5px black solid;
+}
+.keywordTitle p {
+	padding-left: 20px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	margin: 0px;
+}
+#descriptionBar {
+	width: 550px;
+	height: 550px;
+	overflow: hidden;
+	position: fixed;
+}
+.description {
+	width: 550px;
+	height: 550px;
+	overflow: auto;
+	font-family: Georgia;
+	font-size: 20px;
+	color: #333333;
+	line-height: 30px;
+}
+#columns td {
+	padding: 30px;
+}
+h1 {
+	font-family: "Bebas Neue";
+	font-size: 50px;
+}
+.icon {
+	background-color: rgba(0, 0, 0, 0.7);
+	width: 50px;
+	height: 50px;
+	border-radius: 50px;
+	float: left;
+	font-family: "Bebas Neue";
+	font-size: 30px;
+	line-height: 50px;
+	text-align: center;
+	color: white;
+	margin-right: 10px;
+	margin-bottom: 10px;
+}
+.ex {
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 50px;
+	display: block;
+	box-shadow: 10px 10px 5px #888888;
+	border-left: 1px solid #e6e6e6;
+	border-top: 1px solid #e6e6e6;
+}
+.instrC {
+	line-height: 50px;
+}
+a {
+	text-decoration: none;
+	color: #006666;
+}
+</style>
+</head>
+
+<body>
+	<div id="sidebar">
+	<div id="keywords">
+		<div class="keywordTitle">
+			<p>Please...</p>
+		</div>
+	<a href="#showme">
+		<div class="keyword">
+			<p>Show Me</p>
+		</div>
+	</a>
+	<a href="#recipes">
+		<div class="keyword">
+			<p>Get Recipes for</p>
+		</div>
+	</a>
+	<a href="#news">
+		<div class="keyword">
+			<p>Get news about</p>
+		</div>
+	</a>
+	<a href="#shop">
+		<div class="keyword">
+			<p>Shop for</p>
+		</div>
+	</a>
+	<a href="#talk">
+		<div class="keyword">
+			<p>Talk to</p>
+		</div>
+	</a>
+	<a href="#tell">
+		<div class="keyword">
+			<p>Tell me</p>
+		</div>
+	</a>
+	<a href="#house">
+		<div class="keyword">
+			<p>Find house at</p>
+		</div>
+	</a>
+</div>
+</div>
+	<div id="positioning">
+		<div id="descriptionBar">
+			<div class="description">
+				<h1>Instructions</h1>
+				<p>Welcome! Our chrome extension, "Please...," is here to make using the Internet easy!</p>
+				<p>Kindly follow the instructions below, and you'll be on your way to all your favorite, free sites. If you want to return to this page, simply open a new tab, or click on our icon on your navigation bar.</p>
+				<div class="icon">1</div>
+				<p class="instrC">Click the navigation bar and type in "Please".</p>
+				<div class="icon">2</div>
+				<p class="instrC">Press the "tab" key on your keyboard.</p>
+				<div class="icon">3</div>
+				<p>Type in any of the phrases on the left! For what each phrase does and how to use them, click on the phrase you want to learn about. (Not all the phrases may show up on your screen, scroll to see more!)</p>
+			</div>
+			<a name="showme"></a>
+			<div class="description">
+				<h1>Show me...</h1>
+				<p><a href="https://www.facebook.com">Facebook</a> is one of the pinnacles of social media. This website makes it easy to keep up with friends and family, and see what they've been up to lately. Ask chrome to "Please show me..." one of your friends and family, and be taken to their page.</p>
+				<div class="icon">1</div>
+				<p class="instrC">Click the navigation bar and type in "Please".</p>
+				<div class="icon">2</div>
+				<p class="instrC">Press the "tab" key on your keyboard.</p>
+				<div class="icon">3</div>
+				<p>Type "show me" and your friend or family member's name, and press the "enter" or "return" key on your keyboard. If they are on <a href="https://www.facebook.com">Facebook</a>, this will bring up their Facebook profile page where you can look at their recent statuses, pictures, and activities.</p>
+				<img src="showme.png" class="ex">
+			</div>
+			<a name="recipes"></a>
+			<div class="description">
+				<h1>Get recipes for...</h1>
+				<p>Cooking is a well beloved hobby, but there's no need to be restricted by the recipe books in your home. With the Internet you can search for virtually any recipe you want! We use the <a href="http://allrecipes.com/">allrecipes</a> website to fulfil your culinary needs.</p>
+				<div class="icon">1</div>
+				<p class="instrC">Click the navigation bar and type in "Please".</p>
+				<div class="icon">2</div>
+				<p class="instrC">Press the "tab" key on your keyboard.</p>
+				<div class="icon">3</div>
+				<p>Type "get recipes for" and whatever food you're hungry for, and press the "enter" or "return" key on your keyboard! This will search for recipes for this dish.</p>
+				<img src="recipes.png" class="ex">
+			</div>
+			<a name="news"></a>
+			<div class="description">
+				<h1>Get news about...</h1>
+				<p>Newspapers are now a dying breed, but not for lack of news! There are now scores of online news sources for people to read and watch. One such website is <a href="http://edition.cnn.com/">CNN</a>, a credible source of both written and video content.</p>
+				<div class="icon">1</div>
+				<p class="instrC">Click the navigation bar and type in "Please"</p>
+				<div class="icon">2</div>
+				<p class="instrC">Press the "tab" key on your keyboard.</p>
+				<div class="icon">3</div>
+				<p>Type "get news about" and whatever subject you'd like, and press the "enter" or "return" key on your keyboard. This will search <a href="http://edition.cnn.com/">CNN</a> for news you'd like to see.</p>
+				<img src="news.png" class="ex">
+			</div>
+			<a name="shop"></a>
+			<div class="description">
+				<h1>Shop for...</h1>
+				<p>With online shopping, you can buy products from anywhere and have them delivered right to your home! <a href="https://www.amazon.com">Amazon</a> is one of the most prevalent and convenient online ordering services.</p>
+				<div class="icon">1</div>
+				<p class="instrC">Click the navigation bar and type in "Please".</p>
+				<div class="icon">2</div>
+				<p class="instrC">Press the "tab" key on your keyboard.</p>
+				<div class="icon">3</div>
+				<p>Type "shop for" and the product you'd like to buy, and press the "enter" or "return" key on your keyboard. This will search for them on <a href="https://www.amazon.com">Amazon</a>.</p>
+				<img src="shop.png" class="ex">
+			</div>
+			<a name="talk"></a>
+			<div class="description">
+				<h1>Talk to...</h1>
+				<p><a href="https://www.facebook.com">Facebook</a> serves to make it easy to contact people. It's private messaging system allows you to talk to people in private and instantaneously, like an informal version of e-mail. So long as you are friends with this person on <a href="https://www.facebook.com">Facebook</a>, you can send them a direct, private message.</p>
+				<div class="icon">1</div>
+				<p class="instrC">Click the navigation bar and type in "Please"</p>
+				<div class="icon">2</div>
+				<p class="instrC">Press the "tab" key on your keyboard</p>
+				<div class="icon">3</div>
+				<p>Type "talk to" and the person you'd like to talk to, and press the "enter" or "return" key on your keyboard. This will bring you to your message box with them.</p>
+				<img src="talkto.png" class="ex">
+			</div>
+			<a name="tell"></a>
+			<div class="description">
+				<h1>Tell me...</h1>
+				<p>Have something you're curious about? "How many feet are in one mile?" "What year was Obama elected president?" "What does 'ROFL' mean?"</p>
+				<p><a href="https://www.google.com/">Google Search</a> can answer all these questions and more!</p>
+				<div class="icon">1</div>
+				<p class="instrC">Click the navigation bar and type in "Please".</p>
+				<div class="icon">2</div>
+				<p class="instrC">Press the "tab" key on your keyboard.</p>
+				<div class="icon">3</div>
+				<p>Type "tell me" and your question, and press the "enter" or "return" key on your keyboard. This will search for answers on <a href="https://www.google.com/">Google Search</a> and display them as a list of links to websites. Click on the links to see possible answers to your questions!</p>
+				<img src="tellme.png" class="ex">
+			</div>
+			<a name="house"></a>
+			<div class="description">
+				<h1>Find house at...</h1>
+				<p>Going to visit a friend or family member's home for the first time? Feeling nostalgic about an old house? Need directions? <a href="https://www.google.com/maps">Google Maps</a>, an online map, is the solution to all those things.</p>
+				<div class="icon">1</div>
+				<p class="instrC">Click the navigation bar and type in "Please"</p>
+				<div class="icon">2</div>
+				<p class="instrC">Press the "tab" key on your keyboard</p>
+				<div class="icon">3</div>
+				<p>Type "find house at" and the address you're looking for and press the "enter" or "return" key on your keyboard. This should return and display the address.</p>
+				<img src="findhouse.png" class="ex">
+			</div>
+		</div>
+	</div>
+</body>
+</html>

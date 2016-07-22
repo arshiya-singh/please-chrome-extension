@@ -1,0 +1,23 @@
+{
+	"name": "Please...",
+	"description": "Our \"Please...\" extension allows less experienced Internet users to easily navigate common venues and tools of the new electronic age.",
+	"version": "1.0.0",
+	"manifest_version": 2,
+	"icons": {
+	"128": "tempIcon.png"
+	},
+	"chrome_url_overrides": {
+	"newtab": "pleaseKeywords.html"
+	},
+
+	"background": {
+      "scripts": ["background.js"]
+  	},
+  	"omnibox": { "keyword" : "please" },
+ 	 "browser_action": {
+    "default_title": "What do you please?"
+  	},
+  	"permissions": [
+    "activeTab"
+  	]
+}
