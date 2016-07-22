@@ -65,7 +65,7 @@ chrome.omnibox.onInputChanged.addListener(
 // This event is fired with the user accepts the input in the omnibox.
 chrome.omnibox.onInputEntered.addListener(
   function(text) {
-    console.log('inputEntered: ' + text);
+    //console.log('inputEntered: ' + text);
     switch (index) {
       case 0:
         break;
@@ -119,7 +119,6 @@ chrome.omnibox.onInputEntered.addListener(
       case 6:
 
         var append = correct(text, 8);
-        alert('You just typed "' + append + '"');
         chrome.tabs.update({url: "https://www.google.com/search?q=" + append + "&ie=utf-8&oe=utf-8"});
     }
 
